@@ -5,19 +5,6 @@ import './media.css'
 import isMobile from './utils/isMobile'
 
 export default class Home extends Component {
-  componentDidMount() {
-    fetch('/api/text', {
-      'mode': 'no-cors',
-      'headers': {
-        'Access-Control-Allow-Origin': '*',
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      }
-    })
-      .then(res => res.json())
-      .then(data => console.log(data))
-      .catch(err => console.log(err))
-  }
   render() {
     return (
       <div className="home animate-in">
