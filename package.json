@@ -17,6 +17,11 @@
     "react-router-dom": "^4.2.2",
     "sequelize": "^4.8.3"
   },
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack"
+    }
+  ],
   "devDependencies": {
     "debug": "^3.0.1",
     "nodemon": "^1.12.0",
