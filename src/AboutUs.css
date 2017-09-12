@@ -1,0 +1,59 @@
+.about-us {
+  position: fixed;
+  bottom: 0px;
+  left: calc(50% - 250px);
+  height: 500px;
+}
+
+.headshot {
+  position: relative;
+  left: calc(50% - 250px);
+  height: 500px; width: 500px;
+}
+
+.person {
+  position: absolute;
+}
+
+#isa {
+  top: 31px; left: calc(50% - 190px);
+  height: 189px; width: 189px;
+}
+
+#leah {
+  top: 218px; left: calc(50% - 57px);
+  height: 275px; width: 202px;
+  z-index: 1;
+}
+
+#carol {
+  top: 49px; left: calc(50% + 18.9px);
+  height: 169px; width: 173px;
+}
+
+#person-text {
+  display: inline-block;
+  z-index: 10;
+  color: white;
+  position: absolute;
+  font-family: FranklinGothic;
+  text-align: center;
+  left: calc(50% - 250px);
+  width: 500px;
+  bottom: 490px;
+}
+
+#person-text > b {
+  font-size: 31px;
+  line-height: 0;
+}
+
+.about-us-header {
+  font-family: SlenderGrey;
+  text-align: center;
+  font-size: 20vh; font-style: italic;
+  color: white;
+  position: absolute;
+  top: 0; width: 100%;
+  margin-top: 30px;
+}

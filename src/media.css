@@ -1,0 +1,21 @@
+@media screen and (max-height: 800px) {
+  #person-text {
+    bottom: 50px; width: 100%;
+    top: inherit; left: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #person-text {
+    width: 100%; left: 0;
+  }
+}
+
+@media (min-width: 660px) {
+  .home-text {
+    width: 100%; left: 0;
+  }
+  #person-text {
+    width: 60%; left: 20%;
+  }
+}

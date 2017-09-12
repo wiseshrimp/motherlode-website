@@ -1,0 +1,18 @@
+.navbar {
+  position: absolute;
+  height: 30px; width: 80vw;
+  padding-right: 10vw; padding-left: 10vw;
+  background-color: white;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: FranklinGothic;
+  box-shadow: 2px 2px 14px #b5812a;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+  color: #d9ab6d;
+}
