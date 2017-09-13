@@ -5,7 +5,7 @@ export default class PillowTalk extends React.Component {
   render() {
     return (
       <div className="pillow-talk animate-in">
-        <img alt="pillowtalk" id="pillow-talk-img" src={require('./assets/images/pillowtalk.png')} />
+        {/* <img alt="pillowtalk" id="pillow-talk-img" src={require('./assets/images/pillowtalk.png')} /> */}
         <div className="pillow-text">
           <div className="s-text">
             Conventional sex education underrepresents the spectrum of sexual identity, and what is lacking often leads to misinformation from alternative sources.

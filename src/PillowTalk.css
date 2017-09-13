@@ -5,6 +5,8 @@
   z-index: 0;
   display: flex;
   overflow-x: hidden;
+  background: url('./assets/images/pillowtalk.png') no-repeat;
+  background-size: cover;
 }
 
 .pillow-text {
@@ -15,6 +17,7 @@
   text-align: center;
   font-family: FranklinGothic;
   color: #d7917d;
+
 }
 
 .s-text {
