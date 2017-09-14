@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { Router, Route } from 'react-router-dom'
 
 import About from './AboutUs'
 import Contact from './Contact'
@@ -9,7 +9,7 @@ import Navbar from './Navbar'
 import PillowTalk from './PillowTalk'
 
 const Routes = (
-  <BrowserRouter>
+  <Router>
     <div>
       <Navbar />
       <Route path="/about" component={About} />
@@ -18,7 +18,7 @@ const Routes = (
       <Route path="/login" component={Login} />
       <Route exact path="/" component={Home} />
     </div>
-  </BrowserRouter>
+  </Router>
 )
 
 export default Routes
