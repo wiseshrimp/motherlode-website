@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Router, Route } from 'react-router-dom'
+import { Router, Route, Switch } from 'react-router-dom'
 
 import About from './AboutUs'
 import Contact from './Contact'
