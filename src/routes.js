@@ -12,11 +12,13 @@ const Routes = (
   <Router>
     <div>
       <Navbar />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/pillow-talk" component={PillowTalk} />
-      <Route path="/login" component={Login} />
-      <Route exact path="/" component={Home} />
+      <Switch>
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/pillow-talk" component={PillowTalk} />
+        <Route path="/login" component={Login} />
+        <Route exact path="/" component={Home} />
+      </Switch>  
     </div>
   </Router>
 )
