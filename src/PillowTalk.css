@@ -1,3 +1,13 @@
+.donate {
+  background: url('./assets/images/donate.svg') no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  height: 70px;
+  left: calc(50% - 35px);
+  position: relative;
+  width: 70px;
+}
+
 .pillow-talk {
   width: 100%;
   position: absolute;
@@ -8,6 +18,7 @@
   background: url('./assets/images/pillowtalk.png') no-repeat;
   background-size: cover;
   background-position-x: center;
+  height: 100%;
 }
 
 .pillow-text {

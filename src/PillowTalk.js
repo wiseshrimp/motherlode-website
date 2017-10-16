@@ -1,11 +1,16 @@
 import * as React from 'react'
 import './PillowTalk.css'
 
+const GoFundMeLink = 'https://www.gofundme.com/newincresidency'
+
 export default class PillowTalk extends React.Component {
+  goFundMe = () => {
+    window.open(GoFundMeLink)
+  }
+
   render() {
     return (
       <div className="pillow-talk animate-in">
-        {/* <img alt="pillowtalk" id="pillow-talk-img" src={require('./assets/images/pillowtalk.png')} /> */}
         <div className="pillow-text">
           <div className="s-text">
             Conventional sex education underrepresents the spectrum of sexual identity, and what is lacking often leads to misinformation from alternative sources.
@@ -20,6 +25,7 @@ export default class PillowTalk extends React.Component {
           <div className="s-text">
             Pillow Talk is a collaborative project, welcoming any and all ideas encompassing sexuality. We are seeking input, critique, and suggestions as Pillow Talk develops and materializes. Please feel free to contact Motherlode - your voice is indispensable.
           </div>
+          <div className="donate" onClick={this.goFundMe} />
         </div>
       </div>
     )
